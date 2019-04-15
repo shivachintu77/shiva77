@@ -1,0 +1,13 @@
+---
+- studentdetails:
+- name: ravi
+  designation: sre
+  phno:
+  -  9963865438
+  -  888888888
+
+- name: rama
+  designation: sdp
+  phno:
+  -  9963865438
+  -  888888888
