@@ -1,0 +1,13 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: install webserver(apache2) on ubuntu14
+    apt:
+     name: apache2
+     state: present
+
+  - name: restart the service
+    service:
+     name: apache2
+     state: restarted
