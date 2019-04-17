@@ -1,13 +1,16 @@
 ---
-- studentdetails:
-- name: ravi
-  designation: sre
-  phno:
-  -  9963865438
-  -  888888888
+- studentdetails: 
+   - name: shravan
+     phno: 8989898998
+     course: devops
+     address:
+       street: 1
+       pin: 5000072
 
-- name: rama
-  designation: sdp
-  phno:
-  -  9963865438
-  -  888888888
+   - name: nikesh
+     phno: 8989898998
+     course: devops
+     address:
+       street: 1
+       pin: 5000072
+
