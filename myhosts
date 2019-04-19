@@ -1,7 +1,7 @@
 [ubuntuhosts]
 172.31.27.147
 
-
+[redhathosts]
 172.31.22.191
 
 [ubuntuhosts:vars]
