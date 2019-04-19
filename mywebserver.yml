@@ -6,8 +6,22 @@
     apt:
      name: apache2
      state: present
+    when: ansible_os_family= "Debian"
 
-  - name: restart the service
+  - name: start the service
     service:
      name: apache2
-     state: restarted
+     state: started
+    when: ansible_os_family= "Debian"
+
+  - name: install webserver() on redhat7
+    yum:
+     name: httpd 
+     state: present
+    when: ansible_os_family= "RedHat"
+
+  - name: start the service
+    service:
+     name: httpd
+     state: started
+    when: ansible_os_family= "RedHat"
