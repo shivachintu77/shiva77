@@ -1,5 +1,5 @@
 ---
-- hosts: ungroup
+- hosts: all
   become: yes
   tasks:
   - name: install java6 on ubuntu14

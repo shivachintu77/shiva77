@@ -6,8 +6,3 @@
 
 [ubuntuhosts:vars]
 ansible_python_interpreter=/usr/bin/python3
-
-
-[ungroup]
-172.31.27.147
-172.31.22.191
