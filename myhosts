@@ -4,5 +4,11 @@
 [redhathosts]
 172.31.22.191
 
+
+[webservers]
+172.31.27.147
+172.31.22.191
+
+
 [ubuntuhosts:vars]
 ansible_python_interpreter=/usr/bin/python3
