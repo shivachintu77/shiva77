@@ -6,7 +6,3 @@
 
 [ubuntuhosts:vars]
 ansible_python_interpreter=/usr/bin/python3
-<<<<<<< HEAD
-
-=======
->>>>>>> e4f5794ee322ddc77322dcc5c13c80c9d764eb1b
