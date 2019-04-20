@@ -8,7 +8,6 @@
 [webservers]
 172.31.27.147
 172.31.22.191
-172.31.18.48
 
 
 [ubuntuhosts:vars]
