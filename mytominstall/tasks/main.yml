@@ -27,6 +27,6 @@
 
 - name: i want to deploy ravi java war file into webapps 
   get_url:
-    url: http://18.136.104.245:8081/artifactory/raviansible/2/target/raviLogin-1.0.war
-    dest: /usr/share/tomcat/webapps/raviLogin-1.0.war
+    url: https://s3.amazonaws.com/maha4iac/mahaLogin.war
+    dest: /usr/share/tomcat/webapps/mahaLogin.war
     force_basic_auth: yes
