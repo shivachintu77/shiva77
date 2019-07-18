@@ -2,14 +2,14 @@
 - hosts: all
   become: yes
   tasks:
-  - name: install java6 on ubuntu14
+  - name: install java8 on ubuntu14
     apt:
      name: openjdk-8-jre
      state: present
     when: ansible_os_family =="Debian"
   
-  - name: install java6 on redhat
+  - name: install java7 on redhat
     yum:
-     name: java-1.6.0-openjdk
+     name: java-1.7.0-openjdk
      state: present
     when: ansible_os_family =="RedHat"
